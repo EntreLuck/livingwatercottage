@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: _includes/sartre/slider.html
+  label: Home Page Slider
+  match: "**/*"
+- type: heading
+  label: Slider
 - type: heading
   label: Content
 - type: jekyll-posts
