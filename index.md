@@ -2,7 +2,7 @@
 title: Home
 banner_image: "/img/banner.png"
 layout: sartre
-heading: Belkirk College
+heading: Living Water Cottage
 partners:
 - "/uploads/2017/11/13/stem.png"
 - "/uploads/2017/11/13/UPenn_logo.png"

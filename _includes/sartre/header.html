@@ -4,8 +4,8 @@
             <div class="column width-12 nav-bar-inner">
                 <div class="logo">
                     <div class="logo-inner">
-                        <a href="index.html"><img src="images/architecture/logo-dark.png" alt="Sartre Logo" /></a>
-                        <a href="index.html"><img src="images/architecture/logo.png" alt="Sartre Logo" /></a>
+                        <a href="/"><img src="images/architecture/logo-dark.png" alt="{{ site.title }} Logo" /></a>
+                        <a href="/"><img src="images/architecture/logo.png" alt="{{ site.title }} Logo" /></a>
                     </div>
                 </div>
                 <nav class="navigation nav-block secondary-navigation nav-right">
@@ -96,6 +96,7 @@
                 </nav>
                 <nav class="navigation nav-block primary-navigation nav-right no-margin-right">
                     <ul>
+                        {% comment %} 
                         <li class="current">
                             <a href="index.html">Demos</a>
                             <ul class="sub-menu">
@@ -431,8 +432,9 @@
                                 </li>
                             </ul>
                         </li>
+                        {% endcomment %}
                         <li class="contains-mega-sub-menu">
-                            <a href="elements-accordions.html">Elements</a>
+                            <!-- <a href="elements-accordions.html">Elements</a>
                             <ul class="mega-sub-menu">
                                 <li>
                                     <ul>
@@ -491,8 +493,14 @@
                                         </li>
                                     </ul>
                                 </li>
-                            </ul>
-                        </li>
+                            </ul> -->
+                            <li>
+                                <!-- Button -->
+                                <div class="v-align-middle">
+                                    <a href="#book" class="button scroll-link small text-uppercase no-margin-bottom">Book <span class="hide-on-mobile">Now</span></a>
+                                </div>
+                            </li>
+                        </li> 
                     </ul>
                 </nav>
             </div>
