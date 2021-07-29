@@ -4,6 +4,7 @@ short_title: Living Water Cottage
 description: Living Water Cottage, Franklin, TN
 baseurl: 
 permalink: "/:path/"
+incremental: true
 defaults:
 - scope:
     path: ''
